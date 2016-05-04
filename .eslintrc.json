@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "comma-dangle": [
+            2,
+            "always-multiline"
+        ],
+        "indent": [
+            2,
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "no-console": [
+            0
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
